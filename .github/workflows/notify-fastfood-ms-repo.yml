@@ -16,6 +16,6 @@ jobs:
         run: |
           gh api \
             --method POST \
-            repos/SEU_USUARIO/fastfood/dispatches \
+            repos/isaacsilvatech/fastfood/dispatches \
             -f event_type=submodule_updated \
             -f 'client_payload[submodule]=pedidos-ms'
