@@ -18,4 +18,4 @@ jobs:
             --method POST \
             repos/isaacsilvatech/fastfood/dispatches \
             -f event_type=submodule_updated \
-            -f 'client_payload[submodule]=pedidos-ms'
+            -f 'client_payload[submodule]=fastfood-pedidos-ms'
