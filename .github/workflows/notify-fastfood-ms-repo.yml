@@ -16,6 +16,6 @@ jobs:
         run: |
           gh api \
             --method POST \
-            repos/isaacsilvatech/fastfood/dispatches \
+            repos/isaacsilvatech/fastfood-ms/dispatches \
             -f event_type=submodule_updated \
-            -f 'client_payload[submodule]=fastfood-pedidos-ms'
+            -f 'client_payload[submodule]=fastfood-gateway-ms'
